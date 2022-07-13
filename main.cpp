@@ -18,6 +18,6 @@ int main() {
         cout << "Round " << i << ": ";
         cout << (t ? "Heads" : "Tails") << endl;
     }
-    cout << "You " << (cnt[1] > cnt[0] ? "won" : "lost") << "!" << endl;
+    cout << name << (cnt[1] > cnt[0] ? " won" : " lost") << "!" << endl;
     cout << "Heads: " << cnt[1] << ", Tails: " << cnt[0] << endl;
 }
